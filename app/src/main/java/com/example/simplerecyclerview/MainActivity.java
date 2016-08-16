@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void doMagic(View view) {
+        int temp = 1/0;
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
     }
